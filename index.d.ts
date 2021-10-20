@@ -1,6 +1,7 @@
 import * as Koa from "koa";
 import { Files } from 'formidable';
 
+//@ts-ignore
 declare module "koa" {
     interface Request extends Koa.BaseRequest {
         body?: any;
